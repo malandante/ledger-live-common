@@ -518,6 +518,34 @@ const cryptocurrenciesById = {
       }
     ]
   },
+commercium: {
+    id: "commercium",
+    coinType: 377,
+    name: "Commercium",
+    managerAppName: "Commercium",
+    ticker: "CMM",
+    scheme: "commercium",
+    color: "#326464",
+    family: "bitcoin",
+    ledgerExplorerId: "cmm",
+    blockAvgTime: 30,
+    bitcoinLikeInfo: {
+      P2PKH: 28,
+      P2SH: 85
+    },
+    units: [
+      {
+        name: "commercium",
+        code: "CMM",
+        magnitude: 8
+      },
+      {
+        name: "satoshi",
+        code: "sat",
+        magnitude: 0
+      }
+    ]
+  },
   litecoin: {
     id: "litecoin",
     coinType: 2,

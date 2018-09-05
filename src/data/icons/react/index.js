@@ -10,6 +10,7 @@ export { default as ethereumClassic } from "./ethereumClassic";
 export { default as expanse } from "./expanse";
 export { default as hcash } from "./hcash";
 export { default as komodo } from "./komodo";
+export { default as commercium } from "./commercium";
 export { default as litecoin } from "./litecoin";
 export { default as monero } from "./monero";
 export { default as neo } from "./neo";

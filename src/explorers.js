@@ -22,6 +22,7 @@ export const defaultExplorers: CryptoCurrencyConfig<Explorer> = {
   hcash: hash => `http://explorer.h.cash/tx/${hash}`,
   icon: () => null,
   komodo: hash => `https://kmdexplorer.io/tx/${hash}`,
+  commercium: hash => `https://explorer.commercium.net/tx/${hash}`,
   litecoin: hash => `https://live.blockcypher.com/ltc/tx/${hash}`,
   monero: hash => `https://moneroblocks.info/tx/${hash}`,
   nano: hash => `https://nanoexplorer.io/blocks/${hash}`,
